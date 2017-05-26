@@ -3,16 +3,26 @@
 ## Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
+
 	* Objects
+		- Data structures containing KEY: VALUE pairs.
 	* Properties
+		- Features of datat types and structures.
 	* Methods
+		- Anonymous fucntions within Objects.
 	* for in loop
+		 - A means to iterate over Objects:
+		 ```js
+		 for (var key in object) {
+			 action;
+		 }
+		 ```
 	* dot notation vs bracket notation
+		- Use dot notation as a default until you come upon a situation where brackets are required.
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
-		
+
 	* git status
 	* git add --all
 	* git status
